@@ -6,6 +6,14 @@ $config = [
             // !!! insert a secret key in the following (if it is empty) - this is required by cookie validation
             'cookieValidationKey' => 'ji2zYpD8ME0NGEanQ-6sTlxtfGcUIP2l',
         ],
+        'urlManager' => [
+            'class' => 'yii\web\UrlManager',
+            'enablePrettyUrl' => true,
+            'showScriptName' => false,
+            'rules' => [
+                // Правила для бекенду (за потребою)
+            ],
+        ],
     ],
 ];
 
